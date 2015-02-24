@@ -1,8 +1,6 @@
 <template name="nodeList">
-  <button>List</button>
 
-  <div>
-    {{name}}
+  <div class="container">
     {{#each nodes}}
       <div><h3>{{content.title}} [NodeID: {{content.nid}}]</h3></div>
     {{/each}}

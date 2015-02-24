@@ -1,6 +1,5 @@
 Template.nodeList.helpers({
-  name: 'foo',
   nodes: function() {
-    return drupalDdpNodes.find({});
+    return drupalDdpNodes.find({},{sort: {"content.created": -1}});
   }
 });
