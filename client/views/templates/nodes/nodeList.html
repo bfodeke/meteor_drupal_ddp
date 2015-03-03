@@ -1,8 +1,10 @@
 <template name="nodeList">
 
   <div class="container">
-    {{#each nodes}}
-      <div><h3>{{content.title}} [NodeID: {{content.nid}}]</h3></div>
-    {{/each}}
+  	<div class="row">
+	    {{#each nodes}}
+	    	{{> nodeTeaser}}
+	    {{/each}}
+	   </div>
   </div>
 </template>

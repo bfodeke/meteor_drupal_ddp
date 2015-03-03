@@ -1,0 +1,11 @@
+<template name="nodeTeaser">
+	<div class="col-sm-4" data-mh="nodeTeaser">
+		<div class="well">
+			<p><strong>{{content.title}}</strong></p>
+			{{#if thumb}}
+				<img src="{{thumb}}" class="img-responsive" alt="{{content.title}}" />
+			{{/if}}
+			<a href="#" class="btn btn-primary btn-sm">View Full</a>
+		</div>
+	</div>
+</template>
