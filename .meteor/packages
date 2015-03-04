@@ -9,3 +9,5 @@ insecure
 iron:router
 hb5:drupal-ddp
 mizzao:bootstrap-3
+useraccounts:core
+useraccounts:bootstrap
