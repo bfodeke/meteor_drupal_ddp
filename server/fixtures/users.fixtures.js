@@ -10,5 +10,5 @@ if ( Meteor.users.find().count() === 0 ) {
         }
     });
 
-    Meteor.users.update("username":"admin", {$set: {"emails.0.verified" :true}});
+    Meteor.users.update({"username":"admin"}, {$set: {"emails.0.verified" :true}});
 }
