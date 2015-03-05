@@ -9,8 +9,17 @@
 				<li>
 					<a href="#">Articles</a>
 				</li>
-				<li><a href="/sign-in">Sign In</a></li>
 			</ul>
+
+			{{#if currentUser}}
+				<ul class="nav user-menu pull-right">
+					<li><a class="btn btn-default" href="">Sign Out</a></li>
+				</ul>
+			{{else}}
+				<ul class="nav user-menu pull-right">
+					<li><a class="btn btn-default" href="{{pathFor 'signin'}}">Sign In</a></li>
+				</ul>
+			{{/if}}
 		</div>
 	</div>
 </template>
