@@ -1,5 +1,6 @@
 <template name="nodeTeaser">
-	<div class="col-sm-4" data-mh="nodeTeaser">
+	<div class="col-sm-4 nodeTeaser type-{{content.type}}">
+    <div class="content-type">{{content.type}}</div>
 		<div class="well">
 			<p><strong>{{content.title}}</strong></p>
 			{{#if thumb}}
