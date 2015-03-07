@@ -1,10 +1,11 @@
 <template name="nodeList">
 
   <div class="container">
-  	<div class="row list-of-nodes">
-	    {{#each nodes}}
+  	<div id="teaserWrapper" class="row list-of-nodes">
+	    <!-- {{#each nodes}}
   	    {{> nodeTeaser}}
-	    {{/each}}
+	    {{/each}} -->
+      {{> reactiveBlockGrid cursor=nodes template='nodes' cssClass='small-block-grid-3 medium-block-grid-6'}}
 	   </div>
   </div>
 </template>
