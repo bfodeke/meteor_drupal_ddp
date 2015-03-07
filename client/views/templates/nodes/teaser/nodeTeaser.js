@@ -7,3 +7,11 @@ Template.nodeTeaser.helpers({
 		}
 	},
 });
+
+Template.nodeTeaser.rendered = function(){
+  // this.$('.nodeTeaser').toggleClick(function(){
+  //   $(this).velocity('transition.cardFlipX');
+  // }, function(){
+  //   $(this).velocity('reverse');
+  // });
+};
