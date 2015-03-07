@@ -16,6 +16,7 @@ ejson@1.0.5
 email@1.0.5
 fastclick@1.0.2
 follower-livedata@1.0.3
+fourseven:scss@1.0.0
 geojson-utils@1.0.2
 hb5:drupal-ddp@0.0.1
 html-tools@1.0.3
@@ -31,6 +32,7 @@ iron:location@1.0.7
 iron:middleware-stack@1.0.7
 iron:router@1.0.7
 iron:url@1.0.7
+isotope:isotope@2.1.0_1
 jquery@1.11.3
 json@1.0.2
 launch-screen@1.0.1
@@ -45,6 +47,8 @@ minimongo@1.0.6
 mizzao:bootstrap-3@3.3.1_1
 mobile-status-bar@1.0.2
 mongo@1.0.11
+mquandalle:jade@0.4.1
+mrt:jquery-imagesloaded@0.0.2
 npm-bcrypt@0.7.7
 observe-sequence@1.0.4
 ordered-dict@1.0.2
@@ -57,6 +61,7 @@ routepolicy@1.0.4
 service-configuration@1.0.3
 session@1.0.5
 sha@1.0.2
+smeevil:reactive-block-grid@1.0.1
 softwarerero:accounts-t9n@1.0.6
 spacebars@1.0.5
 spacebars-compiler@1.0.4
@@ -68,5 +73,6 @@ underscore@1.0.2
 url@1.0.3
 useraccounts:bootstrap@1.8.1
 useraccounts:core@1.8.1
+velocityjs:velocityjs@1.2.1
 webapp@1.1.6
 webapp-hashing@1.0.2

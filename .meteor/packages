@@ -11,3 +11,6 @@ hb5:drupal-ddp
 mizzao:bootstrap-3
 useraccounts:core
 useraccounts:bootstrap
+velocityjs:velocityjs
+isotope:isotope
+smeevil:reactive-block-grid
