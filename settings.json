@@ -1,0 +1,10 @@
+{
+  "public": {
+  },
+  "drupal_ddp": {
+  	"debug_data": true,
+  	"ddp_url": "http://drupalddp.dev",
+    "restws_user": "restws_login",
+    "restws_pass": "password"
+  }
+}
