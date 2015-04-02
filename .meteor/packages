@@ -14,3 +14,6 @@ useraccounts:bootstrap
 velocityjs:velocityjs
 isotope:isotope
 smeevil:reactive-block-grid
+accounts-base
+accounts-password
+http

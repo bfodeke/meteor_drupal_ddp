@@ -7,19 +7,23 @@ Template.nodeList.helpers({
 Template.nodeList.rendered = function(){
   teaserWrapper = this.$('#teaserWrapper');
   nodes = teaserWrapper.find('.nodeTeaser');
+  
 
   width = $('.container').width();
-  teaserWrapper.css({ 'width': width});
+  nodes.css({'width': (width/3) + 'px'});
+  teaserWrapper.removeClass('row').css({ 
+    'width': (width),
+  });
 
-  // imagesLoaded(nodes, function(){
-  //   $container = teaserWrapper.isotope({
-  //     // options...
-  //     itemSelector: '.nodeTeaser',
-  //     masonry: {
-  //       columnWidth: 380
-  //     }
-  //   });
-  // });
+  imagesLoaded(nodes, function(){
+    $container = teaserWrapper.isotope({
+      // options...
+      itemSelector: '.nodeTeaser',
+      masonry: {
+        columnWidth: (width/3)
+      }
+    });
+  });
 
   
 
@@ -35,9 +39,9 @@ Template.nodeList.rendered = function(){
     insertElement: function(node, next){
       // $(node).velocity("transition.animateIn");
       $(node).insertBefore($(next));
-      // imagesLoaded($(node), function(){
-      //   $container.prepend($(node)).isotope( 'prepended', $(node) );
-      // });
+      imagesLoaded($(node), function(){
+        $container.prepend($(node)).isotope( 'prepended', $(node) );
+      });
       
       
     },
